@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MiniKino</string>
+    <string name="tytul_filmu">Tytul filmu</string>
+    <string name="dodaj_film_do_listy">Dodaj film do listy</string>
+</resources>
