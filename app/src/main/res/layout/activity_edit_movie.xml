@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditMovieActivity"
+    android:orientation="vertical"
+    android:padding="36dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:background="#C1F0F8"
+    >
+    <EditText
+        android:id="@+id/titleUpdateEditText"
+        android:hint="Tytuł filmu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/genreUpdateSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <RatingBar
+        android:id="@+id/updateRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#123123"
+        android:layout_margin="20dp"
+        android:text="Zapisz zmiany"/>
+</LinearLayout>

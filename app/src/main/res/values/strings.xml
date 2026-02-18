@@ -2,4 +2,15 @@
     <string name="app_name">MiniKino</string>
     <string name="tytul_filmu">Tytul filmu</string>
     <string name="dodaj_film_do_listy">Dodaj film do listy</string>
+    
+    <string-array name="movie_genres">
+        <item>Akcja</item>
+        <item>Komedia</item>
+        <item>Dramat</item>
+        <item>Sci-Fi</item>
+        <item>Skibidi</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+
+    </string-array>
 </resources>

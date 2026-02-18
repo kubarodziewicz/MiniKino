@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:numStars="5"
-        android:stepSize="0.005"
+        android:stepSize="0.1"
         android:layout_gravity="center"/>
 
     <Button
@@ -39,4 +39,20 @@
         android:text="@string/dodaj_film_do_listy"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zapisz listę do JSON"
+        android:backgroundTint="#661144"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/movieListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="28dp"
+        android:dividerHeight="8dp"/>
 </LinearLayout>
